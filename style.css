@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(to right, #d8b9f3, #1f15ad);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    color: #1f15ad;
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+    background-color: #d8b9f3;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 10px 10px 20px rgb(236, 22, 104);
+}
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: #d6d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    cursor: pointer;
+    color: #3e31f3;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.status {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #7237a5;
+    font-weight: bold;
+}
+
+.result-screen {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result {
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #3e31f3;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.new-game-button {
+    padding: 8px 15px;
+    font-size: 1.1em; 
+    cursor: pointer;
+    background-color: #966abd;
+    color: #ffffff;
+    border: 2px solid #966abd;
+    border-radius: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 10px rgb(236, 22, 104);
+
+}
+
+.new-game-button:hover {
+    background-color: #8849c0;
+    border-color: #8849c0;
+}
+
+.new-game-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
